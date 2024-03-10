@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { RouterModule } from '@angular/router';
 
+import { LoadingSpinnerComponent } from './components/loading-spinner/loading-spinner.component';
 import { SearchBoxComponent } from './components/search-box/search-box.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
@@ -16,6 +17,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     SidebarComponent,
     ContactPageComponent,
     SearchBoxComponent,
+    LoadingSpinnerComponent,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -24,6 +26,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     SidebarComponent,
     ContactPageComponent,
     SearchBoxComponent,
+    LoadingSpinnerComponent,
   ],
 })
 export class SharedModule {}
